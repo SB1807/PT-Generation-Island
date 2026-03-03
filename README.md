@@ -21,10 +21,12 @@ This project is a study on real-time procedural terrain generator built with **R
 ## Preview 
 
 ### 2D MODE
-![](images\2D_island.png)
+<img width="1898" height="919" alt="2D_island" src="https://github.com/user-attachments/assets/a1a1649b-9c77-4f8b-87ac-a38229790454" />
+
 
 ### 3D MODE
-![](images\3D_island.png)
+
+<img width="1885" height="911" alt="3D_island" src="https://github.com/user-attachments/assets/794da83f-6708-445c-a879-c482e9df38a2" />
 
 
 ### Future work:

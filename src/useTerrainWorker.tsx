@@ -7,16 +7,12 @@ export function useTerrainWorker(config: TerrainConfig) {
     const workerRef = useRef<Worker | null>(null);
 
     useEffect(() => {
-        // 3. We simply instantiate the magic import here! No URLs needed.
+        
         workerRef.current = new TerrainWorker();
-
-        // Listen for the completed ArrayBuffer from the background thread
         workerRef.current.onmessage = (event: MessageEvent<ArrayBuffer>) => {
-            // Re-wrap the raw memory back into a Float32Array
             setHeightMap(new Float32Array(event.data));
         };
 
-        // Kill the background thread if we close the app
         return () => {
             workerRef.current?.terminate();
         };

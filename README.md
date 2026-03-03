@@ -1,6 +1,6 @@
-# Procedural Island Generator using Noise 
+# Procedural Island Generator using Noise  (work in progress)
 
-This project is an intercative procedural terrain generator built with **React, TypeScript and Vite**
+This project is a study on real-time procedural terrain generator built with **React, TypeScript and Vite and Three.js** to explore multi-threading and 3D graphics on the web. **By generating an island with realistic geographical features based on a seed**.
 
 ## Key Features 
 
@@ -18,8 +18,18 @@ This project is an intercative procedural terrain generator built with **React, 
 
 3. ```npm run dev```
 
-## Preview and Future work 
+## Preview 
 
+### 2D MODE
 ![](images\2D_island.png)
+
+### 3D MODE
 ![](images\3D_island.png)
+
+
+### Future work:
+
+1. Adding more noise models to chose from  (e.g Perlin Noise, Cellular Noise)
+2. Adding biomes
+3. Adding randomly generated for drcoration (trees, rocks, etc)
 
